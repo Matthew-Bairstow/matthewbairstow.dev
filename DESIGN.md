@@ -17,13 +17,17 @@ One word: **printed**. Like a well-set CV on good paper, not an app dashboard.
 
 | Token      | Light     | Dark      | Use                                   |
 |------------|-----------|-----------|---------------------------------------|
-| `--paper`  | `#f5f2eb` | `#171614` | Page background                       |
-| `--ink`    | `#1c1b19` | `#ebe7de` | Body text, headings                   |
-| `--ink-2`  | `#5a564e` | `#a39e93` | Dates, secondary text                 |
-| `--rule`   | `#d6cfc0` | `#34312c` | Hairline dividers                     |
-| `--accent` | `#9b2c1d` | `#e0806a` | Links and the active nav item only    |
+| `--paper`  | `#f5f2eb` | `#1c1c1a` | Page background                       |
+| `--ink`    | `#1c1b19` | `#dcd9d2` | Body text, headings                   |
+| `--ink-2`  | `#5a564e` | `#9b978e` | Dates, secondary text                 |
+| `--rule`   | `#d6cfc0` | `#3b3a36` | Hairline dividers                     |
+| `--accent` | `#9b2c1d` | `#d9957f` | Links and the active nav item only    |
 
 One accent colour. No gradients, no glows, no shadows.
+
+Dark mode is a neutral charcoal, not black, with off-white text that is not cream. Light text on dark
+looks heavier, so dark mode drops the serif weight (400 to 360, 600 to 560) and uses antialiased smoothing.
+Link underlines are a faded version of the accent in both themes.
 
 ## Type
 
