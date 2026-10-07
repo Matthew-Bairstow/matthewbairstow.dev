@@ -13,7 +13,7 @@
     --w-strong: 600;
 
     --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
-    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
     --measure: 44rem;
     color-scheme: light dark;
 }
@@ -35,7 +35,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 
 body {
     margin: 0;
@@ -188,7 +188,7 @@ h3 {
 
 .email-big {
     font-size: 1.6rem;
-    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 /* Footer */
