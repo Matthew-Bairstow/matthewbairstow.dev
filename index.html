@@ -1,66 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthew Bairstow | Computer Science Portfolio</title>
+    <title>Matthew Bairstow</title>
+    <meta name="description" content="Matthew Bairstow, Computer Science student at the University of Strathclyde working on driverless software for University of Strathclyde Motorsport.">
+    <meta property="og:title" content="Matthew Bairstow">
+    <meta property="og:description" content="Computer Science student at Strathclyde. Driverless software, C++, Python, ROS.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://matthewbairstow.dev/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a class="skip" href="#main">Skip to content</a>
 
-    <header>
-        <div class="nav-container">
-            <a href="index.html" class="logo">Matthew<span>Bairstow</span></a>
-            <nav>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="name" href="index.html">Matthew Bairstow</a>
+            <nav class="site-nav" aria-label="Main">
                 <ul>
-                    <li><a href="index.html" class="active">About Me</a></li>
-                    <li><a href="experience.html">Experience & Education</a></li>
+                    <li><a href="index.html" aria-current="page">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Hi, I'm <span>Matthew Bairstow</span></h1>
-            <p class="headline">Computer Science Student at Strathclyde University | Passionate About Digital Safety, Leadership & Community Service</p>
+    <main id="main" class="wrap">
+        <h1>Matthew Bairstow</h1>
+        <p class="lede">I'm a first-year Computer Science student at the University of Strathclyde, and I write software for the driverless system at University of Strathclyde Motorsport.</p>
+        <p>Before university I did an HNC in Cyber Security at New College Lanarkshire, so I came into the degree already writing Python and thinking about how systems fail. At USM I work in C++ and Python on ROS, with the car's CAN bus underneath. Outside of code I've been a volunteer leader with the Scouts since 2022, and I work part-time at Tesco.</p>
+        <p><a href="experience.html">Full experience and education</a> &middot; <a href="projects.html">Projects</a> &middot; <a href="mailto:general@matthewbairstow.dev">general@matthewbairstow.dev</a></p>
+
+        <section aria-labelledby="now">
+            <h2 id="now">Right now</h2>
+            <ul class="entries">
+                <li class="entry">
+                    <span class="meta">Since Oct 2025</span>
+                    <div>
+                        <h3>Driverless System Engineer</h3>
+                        <p class="org">University of Strathclyde Motorsport</p>
+                        <p>Working on the driverless vehicle architecture, and helping with the team's marketing and sponsorship.</p>
+                    </div>
+                </li>
+                <li class="entry">
+                    <span class="meta">2025 &ndash; 2030</span>
+                    <div>
+                        <h3>MEng Computer Science</h3>
+                        <p class="org">University of Strathclyde</p>
+                    </div>
+                </li>
+            </ul>
         </section>
 
-        <section class="about-section">
-            <h2>About</h2>
-            <p>I'm currently studying for a BSc (Hons) in Computer Science, with a strong interest in cybersecurity, digital systems, and problem-solving. Alongside my academic work, I volunteer as a Scout leader, an experience that has helped me develop leadership, communication, and teamwork skills in real-world settings.</p>
-            <p>Volunteering with Scouts has been a big part of my personal development. It's taught me to be adaptable, dependable, and community focused all of which I bring into my work and studies.</p>
-            <p>I'm passionate about using technology to make a positive impact and always looking to connect with others in the computing or voluntary sectors.</p>
-        </section>
-
-        <section>
-            <h2>Featured Competencies</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Technical Domain</h3>
-                    <p>Focusing on robust software development, fundamental cybersecurity baselines, automated systems infrastructure, and digital defense design.</p>
-                    <div class="tag-container">
-                        <span class="tag">Digital Systems</span>
-                        <span class="tag">Cyber Security</span>
-                        <span class="tag">Problem Solving</span>
-                    </div>
+        <section aria-labelledby="skills">
+            <h2 id="skills">Skills</h2>
+            <dl class="skills">
+                <div>
+                    <dt>Languages</dt>
+                    <dd>Python, C++, Java, Bash, HTML and CSS</dd>
                 </div>
-                <div class="card">
-                    <h3>Leadership & Volunteering</h3>
-                    <p>Substantial background overseeing group logistics, leading youth sports or adventure activities, managing team execution goals, and handling group dynamics safely.</p>
-                    <div class="tag-container">
-                        <span class="tag">Teamwork</span>
-                        <span class="tag">Adaptability</span>
-                        <span class="tag">Community Focus</span>
-                    </div>
+                <div>
+                    <dt>Tools</dt>
+                    <dd>ROS, CAN, Git, Linux, JUnit</dd>
                 </div>
-            </div>
+                <div>
+                    <dt>Areas</dt>
+                    <dd>Autonomous vehicle software, cyber security, object-oriented design, testing</dd>
+                </div>
+                <div>
+                    <dt>Working with people</dt>
+                    <dd>Leading groups of young people at Scouts, planning activities, customer-facing work at Tesco</dd>
+                </div>
+            </dl>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Matthew Bairstow. Bellshill, Scotland, United Kingdom.</p>
+    <footer class="site-footer">
+        <div class="wrap meta">
+            <span>&copy; 2026 Matthew Bairstow</span>
+            <span><a href="mailto:general@matthewbairstow.dev">general@matthewbairstow.dev</a> &middot; <a href="https://github.com/Matthew-Bairstow">GitHub</a></span>
+        </div>
     </footer>
-
 </body>
 </html>
