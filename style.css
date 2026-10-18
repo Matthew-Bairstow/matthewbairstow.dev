@@ -5,6 +5,7 @@
     --ink: #1c1b19;
     --ink-2: #5a564e;
     --rule: #d6cfc0;
+    --ink-strong: #1c1b19;
     --accent: #9b2c1d;
     --link-line: rgba(155, 44, 29, 0.45);
 
@@ -24,13 +25,13 @@
         --ink: #dcd9d2;
         --ink-2: #9b978e;
         --rule: #3b3a36;
+        --ink-strong: #eeebe5;
         --accent: #d9957f;
         --link-line: rgba(217, 149, 127, 0.4);
         --w-text: 360;
         --w-strong: 560;
     }
     body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-    h1, h3, .name { color: #eeebe5; }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -82,7 +83,7 @@ a:hover { color: var(--ink); text-decoration-color: currentColor; }
 .name {
     font-weight: var(--w-strong);
     font-size: 1.125rem;
-    color: var(--ink);
+    color: var(--ink-strong);
     text-decoration: none;
 }
 .name:hover { color: var(--accent); }
@@ -97,7 +98,7 @@ a:hover { color: var(--ink); text-decoration-color: currentColor; }
     font-family: var(--mono);
     font-size: 0.875rem;
 }
-.site-nav a { color: var(--ink-2); text-decoration: none; }
+.site-nav a { display: inline-block; padding: 0.4rem 0; color: var(--ink-2); text-decoration: none; }
 .site-nav a:hover { color: var(--ink); }
 .site-nav a[aria-current="page"] {
     color: var(--ink);
@@ -112,6 +113,7 @@ a:hover { color: var(--ink); text-decoration-color: currentColor; }
 main.wrap { padding-top: 4rem; padding-bottom: 4rem; }
 
 h1 {
+    color: var(--ink-strong);
     font-size: 2.75rem;
     line-height: 1.1;
     font-weight: var(--w-strong);
@@ -132,7 +134,7 @@ section { margin-top: 3.5rem; }
 /* Section label: small mono heading over a hairline */
 h2 {
     font-family: var(--mono);
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -143,6 +145,7 @@ h2 {
 }
 
 h3 {
+    color: var(--ink-strong);
     font-size: 1.25rem;
     font-weight: var(--w-strong);
     line-height: 1.3;
