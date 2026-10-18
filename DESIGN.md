@@ -18,7 +18,8 @@ One word: **printed**. Like a well-set CV on good paper, not an app dashboard.
 | Token      | Light     | Dark      | Use                                   |
 |------------|-----------|-----------|---------------------------------------|
 | `--paper`  | `#f5f2eb` | `#1c1c1a` | Page background                       |
-| `--ink`    | `#1c1b19` | `#dcd9d2` | Body text, headings                   |
+| `--ink`    | `#1c1b19` | `#dcd9d2` | Body text                             |
+| `--ink-strong` | `#1c1b19` | `#eeebe5` | h1, h3 and the site name          |
 | `--ink-2`  | `#5a564e` | `#9b978e` | Dates, secondary text                 |
 | `--rule`   | `#d6cfc0` | `#3b3a36` | Hairline dividers                     |
 | `--accent` | `#9b2c1d` | `#d9957f` | Links and the active nav item only    |
